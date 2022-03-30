@@ -61,7 +61,6 @@ int main() {
       cout << endl;
       
       /* Move the ring from "from" to "to" (first copy it, then delete it from "from")
-      **WRITE ME:** 
       1. push the top of the "from" tower to the "to" tower*/
       t[to].push_back(t[from].back()); // push_back takes in the value at the top of the "from" stack 
                                        // and puts it at the top of the "to" stack 
